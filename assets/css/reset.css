@@ -1,0 +1,75 @@
+html, body{
+    height:100%;
+    font-family: helvetica;
+  }
+  
+  body{
+    background-image: url(../images/soccerbackground.jpeg);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  
+  }
+  
+  #wrapper{
+    margin:2.5% auto;
+    background-color: rgba(red, green, blue, alpha);
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+    color: white;  
+  }
+  
+  #subwrapper{
+    position: relative;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 6.0em;
+    font-weight: bold;
+    color:blue;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid white;
+    background: red;
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid white;
+    background: red;
+  }
+  
